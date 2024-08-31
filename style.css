@@ -1,11 +1,12 @@
+/*configuração de estilização do site*/
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* definição inicial de estil da página*/
     margin: 0;
     padding: 0;
     color: white;
     font-family:sans-serif;
 }
-body{
+body{    /*definição do corpo do site tamanho e direção do elementos*/
     display: flex;
     flex-direction: column;
      min-height: 100vh;
@@ -24,7 +25,7 @@ body{
     color: white;
     padding: 10px;
 }
-
+/*definição do menu horizontal */
 ul{
     display: flex;
     justify-content:center;
@@ -47,7 +48,7 @@ li a{
     padding: 10px;
     display: block;
 }
-
+/*configuração de sobra do menu ao passar o mouse nas opções*/
  li a:hover{
     background-color:darkblue;
     border-radius: 10px;
@@ -72,7 +73,7 @@ main {
    text-align: center; 
     color: darkblue;  
 }
-
+/*configuração do texto da página*/
 p{
     color: black;
     font-size: 16px;
@@ -81,7 +82,7 @@ p{
     padding: 5px;
     line-height: 1.5;
 }
-
+/*configuração do roda pé da página*/
 footer{
    
     text-align: center;
